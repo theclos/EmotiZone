@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Inicio"/>
+
+        <item
+            android:id="@+id/nav_modules"
+            android:icon="@drawable/baseline_view_module_24"
+            android:title="Modulos"/>
+
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/baseline_calendar_month_24"
+            android:title="Calendario"/>
+
+        <item
+            android:id="@+id/nav_me"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Mi perfil"/>
+
+        <item
+            android:id="@+id/nav_chatbot"
+            android:icon="@drawable/baseline_mark_unread_chat_alt_24"
+            android:title="ChatBot"/>
+
+        <item
+            android:id="@+id/nav_stadistics"
+            android:icon="@drawable/baseline_trending_up_24"
+            android:title="Estadisticas"/>
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Cerrar Sesión"/>
+        </menu>
+    </item>
+</menu>
